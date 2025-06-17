@@ -14,61 +14,113 @@
 }
 
 
-@media screen and (max-width: 1200px){
-    .blackhole-box video{
-        margin-top: -20%;
+@media screen and  (max-width: 425px) {
+
+    .hero .skills-video-box {
+        display: none;
+        
     }
 
-    .hero-info h1{
-        font-size: 40px;
-        max-width: 400px;
-        line-height: 40px;
+    .blackhole-box {
+        overflow: hidden;
     }
 
-    .hero-info P{
-        max-width: 300px;
+    .blackhole-box video {
+        width: 140%;
+        margin-top: -27%;
+
     }
 
-    .skills-video-box{
-        right: 0%;
+    .left {
+        scale: 0.9;
+        margin-left: -30px;
     }
 
-    .skills-video-box video{
-        height: 500px;
-    }
-
-    .info-cards{
-        grid-template-columns: auto;
-    }
-
-    .card:nth-child(3){
-        grid-column: span 2;
-        height: 70vh;
-    }
-
-    .info-cards .card h1{
+    .left h2 {
         font-size: 20px;
     }
 
-    .info-cards .card:nth-child(3) h1{
-        bottom: 25%;
+    .hero {
+        scale: 0.9;
     }
 
-    .card video{
-        height: 60%;
-
-        margin-top: 5%;
+    .hero-info{
+        bottom: 15%;
     }
 
-    .my-project{
-        margin-bottom: 200px;
-        scale: 0.8;
+    .hero-info h1{
+        font-size: 35px;
+    }
+
+    .scroll-down{
+        bottom: 15%;
+        left: 60%;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+
+    .info-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        min-height: 20rem;
+    }
+
+    .card h1{
+        bottom: 30%;
+        font-size: 5px;
+    }
+
+    .project-card {
+        height: 50%;
+    }
+
+    .project-info p{
+        margin-bottom: 15px;
+    }
+
+    .project-info{
+        margin-left: -80px;
+    }
+
+    .skills-box{
+        height: 120vh;
+        margin-right: 30px;
+    }
+
+    .slider{
+        bottom: 0%;
+    }
+
+    .contact-section{
+        scale: 0.9;
+        height: 120vh;
     }
 
     .contact-section .section-title {
-        left: 30%;
+        top: -30px;
+        left: 25%;
     }
+
+    .footer{
+        padding: 15px;
+    }
+
+    .footer h1{
+        max-width: 150px;
+    }
+
+    .footer .box-icons{
+        gap: 10px;
+    }
+
+
 }
+
 
 @media screen and (max-width: 700px){
     header {
@@ -229,110 +281,62 @@
     }
 }
 
-
-@media screen and (max-width: 480px) {
-
-    .hero .skills-video-box {
-        display: none;
-        
-    }
-
-    .blackhole-box {
-        overflow: hidden;
-    }
-
-    .blackhole-box video {
-        width: 140%;
-        margin-top: -27%;
-
-    }
-
-    .left {
-        scale: 0.9;
-        margin-left: -30px;
-    }
-
-    .left h2 {
-        font-size: 20px;
-    }
-
-    .hero {
-        scale: 0.9;
-    }
-
-    .hero-info{
-        bottom: 15%;
+@media screen and (max-width: 1200px){
+    .blackhole-box video{
+        margin-top: -20%;
     }
 
     .hero-info h1{
-        font-size: 35px;
+        font-size: 40px;
+        max-width: 400px;
+        line-height: 40px;
     }
 
-    .scroll-down{
-        bottom: 15%;
-        left: 60%;
+    .hero-info P{
+        max-width: 300px;
     }
 
-    .section-title {
-        font-size: 25px;
+    .skills-video-box{
+        right: 0%;
+    }
+
+    .skills-video-box video{
+        height: 500px;
     }
 
     .info-cards{
-        display: flex;
-        flex-direction: column;
+        grid-template-columns: auto;
     }
 
-    .card {
-        min-height: 20rem;
+    .card:nth-child(3){
+        grid-column: span 2;
+        height: 70vh;
     }
 
-    .card h1{
-        bottom: 30%;
-        font-size: 5px;
+    .info-cards .card h1{
+        font-size: 20px;
     }
 
-    .project-card {
-        height: 50%;
+    .info-cards .card:nth-child(3) h1{
+        bottom: 25%;
     }
 
-    .project-info p{
-        margin-bottom: 15px;
+    .card video{
+        height: 60%;
+
+        margin-top: 5%;
     }
 
-    .project-info{
-        margin-left: -80px;
-    }
-
-    .skills-box{
-        height: 120vh;
-        margin-right: 30px;
-    }
-
-    .slider{
-        bottom: 0%;
-    }
-
-    .contact-section{
-        scale: 0.9;
-        height: 120vh;
+    .my-project{
+        margin-bottom: 200px;
+        scale: 0.8;
     }
 
     .contact-section .section-title {
-        top: -30px;
-        left: 25%;
+        left: 30%;
     }
-
-    .footer{
-        padding: 15px;
-    }
-
-    .footer h1{
-        max-width: 150px;
-    }
-
-    .footer .box-icons{
-        gap: 10px;
-    }
-
-
 }
+
+
+
+

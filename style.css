@@ -86,7 +86,7 @@ header ul a:hover{
 
 .box-icons{
     display: flex;
-    
+    gap: 10px;
 }
 
 .box-icons a{
@@ -141,10 +141,10 @@ header ul a:hover{
 
 .hero-info .hero-info-title{
     color: #72a1de;
-    padding: 8px 5px;
+    padding: 8px 0px 8px 10px;
     border-radius: 50px;
     border: 1px solid #72a1de94;
-    width: 240px;
+    width: 180px;
     background-color: #2200493d;
     box-shadow: 0 0 5px #72a1de84;
 }
