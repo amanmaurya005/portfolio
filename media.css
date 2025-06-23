@@ -87,6 +87,9 @@
     .project-info{
         margin-left: -80px;
     }
+    .exbtn{
+        margin: -20px 0 30px 0;
+    }
 
     .skills-box{
         height: 120vh;
