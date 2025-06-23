@@ -88,7 +88,8 @@
         margin-left: -80px;
     }
     .exbtn{
-        margin: -120px 0 50px 0;
+        /* margin: -120px 0 50px 0; */
+        display: none;
     }
 
     .skills-box{
