@@ -742,7 +742,7 @@ header ul a:hover{
 }
 .box-icons2{
       display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 .box-icons2 a{
      display: flex;

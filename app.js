@@ -5,7 +5,18 @@ const video3 = document.getElementById('projectVideo3');
 // Sidebar elements //
 const sideBar = document.querySelector('.sidebar');
 const menu = document.querySelector('.menu-icon');
-const closeIcon = document.querySelector('.close-icon')
+const closeIcon = document.querySelector('.close-icon');
+
+const name=document.getElementById("name");
+const email=document.getElementById("email");
+const message=document.getElementById("message");
+const submit=document.getElementById("submit");
+
+submit.addEventListener("click",()=>{
+    name="";
+    email="";
+    message="";
+})
 
 
 const hoverSign = document.querySelector('.hover-sign');
